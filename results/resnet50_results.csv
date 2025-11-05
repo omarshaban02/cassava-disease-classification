@@ -1,0 +1,2 @@
+Model,Accuracy (%),Macro F1-Score (%),Inference Time (ms)
+ResNet50,85.63,74.47,9.29
