@@ -2,7 +2,7 @@
 
 A deep learning project comparing **ResNet50**, **EfficientNet-B0**, and **Vision Transformer (ViT-B/16)** for cassava leaf disease detection using the [Kaggle Cassava Leaf Disease Dataset](https://www.kaggle.com/c/cassava-leaf-disease-classification).
 
-## 📘 Overview
+## Overview
 
 This repository provides a clean, modular PyTorch pipeline for training and evaluating multiple architectures on the cassava disease dataset.  
 Each model is fine-tuned with advanced strategies such as:
@@ -12,7 +12,7 @@ Each model is fine-tuned with advanced strategies such as:
 - Cosine warmup scheduling  
 - Class-weighted loss for imbalance handling  
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```plain
 
@@ -60,7 +60,7 @@ cassava-disease-classification/
      └── train_images/
      ```
 
-## 🧠 Train Models
+## Train Models
 
 Train any of the models with a single command:
 
@@ -82,7 +82,7 @@ results/models/
 results/resnet_training_curves.png
 ```
 
-## 📊 Evaluate Models
+## Evaluate Models
 
 After training:
 
@@ -97,15 +97,15 @@ Outputs:
 - Comparison CSV → `results/model_comparison_results.csv`
 - Performance bar plot → `results/plots/model_comparison.png`
 
-## 🧩 Key Features
+## Key Features
 
-- 🧠 ResNet50: progressive layer unfreezing
-- ⚙️ EfficientNet-B0: gradual fine-tuning + warmup scheduler
-- 🔬 ViT-B/16: transformer-based classifier with layer-wise LR decay
-- 🧪 Mixup augmentation & class-balanced loss
-- 📈 Automatic result visualization and comparison
+- ResNet50: progressive layer unfreezing
+- EfficientNet-B0: gradual fine-tuning + warmup scheduler
+- ViT-B/16: transformer-based classifier with layer-wise LR decay
+- Mixup augmentation & class-balanced loss
+- Automatic result visualization and comparison
 
-## 📄 Requirements
+## Requirements
 
 ```plain
 torch
@@ -120,7 +120,7 @@ scikit-learn
 Pillow
 ```
 
-## 🏁 Results Summary
+## Results Summary
 
 | Model           | Accuracy (%) | Macro-F1 (%) | Time per Sample (s) |
 | --------------- | ------------ | ------------ | ------------------- |
@@ -130,12 +130,13 @@ Pillow
 
 (*Populated automatically after running `evaluate.py`*)
 
-## 🧾 License
+## License
 
 Released under the **MIT License** – free for research and educational use.
 
-## 👤 Author
+## Authors
 
-Developed by **Omar Shaban** \
-Biomedical & AI Engineer \
-<omar.an.shaban@gmail.com>
+Developed by **Omar Shaban** & **Abdulrahman Shawky** \
+Biomedical & AI Engineers \
+[Omar's GitHub](https://github.com/omarshaban02), [Abdulrahman's Github](https://github.com/AbdulrahmanGhitani)\
+<omar.an.shaban@gmail.com>, <abdulrahman.shawky02@gmail.com>
